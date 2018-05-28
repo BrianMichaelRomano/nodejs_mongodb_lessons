@@ -1,0 +1,6 @@
+1. Move requestHandler and it pass as argument to createServer call.
+2. Remove server.on() call as is not required anymore.
+3. Require url module for use in parsing req data.
+4. Create parsedReq object that will store our parsed request data.
+5. Parse and attach parsedUrl, path, trimmedPath, method and queryStringObject data to parsedReq.
+6. Demo response with parsed data.
