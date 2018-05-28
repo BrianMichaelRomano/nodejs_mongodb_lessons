@@ -1,0 +1,6 @@
+1. Require http module.
+2. Create our server object and store it in a variable.
+3. Define our Handler.
+4. Add a simple Response to client upon request in our Handler.
+5. Attach our Handler to the request event of our server.
+6. Spin up our server on specified port and log that server is now listening and ready.
